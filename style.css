@@ -1,0 +1,144 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff8f8;
+  color: #333;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #ffb6c1;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Seções */
+section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+#hero {
+  background-color: #ffe4e1;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+#hero h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+#hero p {
+  font-size: 1.2rem;
+}
+
+/* Serviços */
+#servicos ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#servicos li {
+  background-color: #ffebf0;
+  margin: 10px 0;
+  padding: 15px;
+  border-left: 5px solid #ffb6c1;
+  font-size: 1.1rem;
+}
+
+/* Galeria */
+.galeria-imagens {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.galeria-imagens img {
+  width: 250px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Botão do WhatsApp */
+.botao {
+  display: inline-flex;
+  align-items: center;
+  background-color: #25d366;
+  color: white;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 15px 0;
+  transition: background-color 0.3s ease;
+}
+
+.botao svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  fill: white;
+}
+
+.botao:hover {
+  background-color: #128c7e;
+}
+
+/* Links Instagram */
+#contato a {
+  display: inline-flex;
+  align-items: center;
+  color: #e1306c;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#contato a svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  fill: #e1306c;
+}
+
+/* Rodapé */
+footer {
+  background-color: #ffb6c1;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9rem;
+}
